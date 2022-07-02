@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #e5e5e5;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -25,6 +29,7 @@ header {
   align-items: center;
   height: 120px;
   width: 100%;
+  background-color: white;
 }
 
 .logo {
@@ -38,13 +43,22 @@ header {
 }
 
 /* header-background-mobile */
+.main {
+  width: 375px;
+  height: 718px;
+  background: white;
+  border-bottom-left-radius: 80px 80px;
+}
 
 .headLine {
-  background: #fff;
-  background-image: url("../images/header-shapes-mobile.png");
-  background-repeat: no-repeat;
-  width: 100%;
+  background: white;
+  display: block;
+  width: 375px;
   height: 718px;
+  border-bottom-left-radius: 80px 80px;
+  background-image: url("../images/header-shapes-mobile.png");
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 .headLine h1 {
@@ -94,21 +108,14 @@ header {
   grid-template-columns: 1;
   grid-template-rows: 4;
   background-color: #e5e5e5;
-  padding-top: 114px;
-}
-
-:nth-last-child(-4+1) {
-  background-color: white;
-  padding: 16px;
-  border-radius: 15px;
-  margin-top: 88px;
+  padding-top: 68px;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 16px;
   border-radius: 15px;
-  margin-top: 88px;
+  margin-top: 68px;
 }
 
 .card-title {
@@ -252,7 +259,7 @@ header {
 .grid-item-alt {
   background: #fff;
   width: 100%;
-  padding-top: 114px;
+  padding-top: 88px;
   border-top-right-radius: 15px;
   background-color: white;
 }
