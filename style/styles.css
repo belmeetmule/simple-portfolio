@@ -92,8 +92,16 @@ header {
 .grid-container {
   display: grid;
   grid-template-columns: 1;
+  grid-template-rows: 4;
   background-color: #E5E5E5;
   padding-top: 114px;
+}
+
+:nth-last-child(-4+1){
+  background-color: white;
+  padding: 16px;
+  border-radius:15px;
+  margin-top: 88px;
 }
 
 .grid-item {
@@ -201,4 +209,63 @@ color: #7A869A;
   gap: 16px;
   margin-top: 16px;
   padding-left: 0;
+}
+
+.languages-vertical li{
+  display: flex;
+  flex-direction: row;
+  justify-items:self-start;
+}
+.languages-vertical img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  margin-right: 5px;
+}
+
+.languages-vertical li{
+  font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+.not-expanded{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: #7A869A 1px solid;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  padding: 10px;
+
+}
+
+.test{
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #172B4D;
+}
+
+
+.grid-item-alt{
+  background: #fff;
+  width: 100%;
+    padding-top: 114px;
+    border-top-right-radius:15px;
+    background-color: white;
+    
+}
+
+.skill-set{
+  font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+color: #253858;
 }
