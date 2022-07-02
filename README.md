@@ -5,7 +5,7 @@
 # Portfolio
 
 ## Description
-This project is mainly the header part of a mobile website. 
+This project is a prortfolio website that is not done yet. Currently I has got header, work and about my self sections.
 
 
 ## Built With
