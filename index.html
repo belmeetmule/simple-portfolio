@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mulugeta-Portfolio</title>
     <link rel="stylesheet" href="style/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
 </head>
 <body>
     <!-- define container that holds all the items of the page-->
@@ -159,62 +157,82 @@
                     </div>
              </div>
 
-                <!-- About me-->
-            <div class="">
-             <div class="grid-item">
-                <div class="card-item grid-item-alt">
-                    <h2 class="card-title test">About Myself</h2>
-                       
-                        <p class="primary-text">
-                            Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-                        </p>
-                        <div class="letsConnect">
-                            <h2> Let's Connect</h2>
-                            <ul class="social-item">
-                                <li> <a href="#"><img src="./images/icons/twitter.svg" alt="twitter icon"></a>  </li>
-                                <li> <a href="#"><img src="./images/icons/Linkedin_icon.svg" alt="LinkenIn icon"></a>  </li>
-                                <li> <a href="#"><img src="./images/icons/M.svg" alt="M icon"></a>  </li>
-                                <li> <a href="#"><img src="./images/icons/git-Hub.svg" alt ="gitHub icon"></a>  </li>
-                                <li> <a href="#"><img src="./images/icons/V.svg" alt="V icon"></a>  </li>
-                            </ul>
-                        </div>
-                        <button type="button" id='project-1' class="see-more-button">
-                            Get my resume
-                        </button>
-                        
-                        <div class="skills-set">
-                        <div class="languages-title">
-                            <p>languages</p>
-                            <img src="images/down-arrow.svg" alt="down arrow icon">
-                        </div>
-                        <ul class="languages-vertical">
-                            <li class="languages">
-                                <img src="images/js.svg" alt="java script icon">
-                                <p>javascript</p></li>
-                            <li class="languages">
-                                <img src="images/html5.svg" alt="css icon">
-                                <p>html</p></li>
-                            <li class="languages">
-                                <img src="images/css3.svg" alt="java script icon">
-                                <p>css</p></li>
+               
+        </section>     
+                   
+   
+        <!-- About me-->
+        <div class="about-my-self">
+            <div class="card-item">
+                <h2 class="card-title test">About Myself</h2>
+                   
+                    <p class="primary-text">
+                        Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                    </p>
+                    <div class="letsConnect">
+                        <h2> Let's Connect</h2>
+                        <ul class="social-item">
+                            <li> <a href="#"><img src="./images/icons/twitter.svg" alt="twitter icon"></a>  </li>
+                            <li> <a href="#"><img src="./images/icons/Linkedin_icon.svg" alt="LinkenIn icon"></a>  </li>
+                            <li> <a href="#"><img src="./images/icons/M.svg" alt="M icon"></a>  </li>
+                            <li> <a href="#"><img src="./images/icons/git-Hub.svg" alt ="gitHub icon"></a>  </li>
+                            <li> <a href="#"><img src="./images/icons/V.svg" alt="V icon"></a>  </li>
                         </ul>
-                        
-                        <div class="not-expanded">
-                            <p>Frameworks</p>
-                            <img src="images/icons/horizontal-arrow.svg" alt="horizontal arrow">
-                        </div>
-                        <div class="not-expanded">
-                            <p>skills</p>
-                            <img src="images/icons/horizontal-arrow.svg" alt="horizontal arrow">
-                        </div>
+                    </div>
+                    <button type="button" id='project-1' class="see-more-button">
+                        Get my resume
+                    </button>
+                    
+                    <div class="skills-set">
+                    <div class="languages-title">
+                        <p>languages</p>
+                        <img src="images/down-arrow.svg" alt="down arrow icon">
+                    </div>
+                    <ul class="languages-vertical">
+                        <li class="languages">
+                            <img src="images/js.svg" alt="java script icon">
+                            <p>javascript</p></li>
+                        <li class="languages">
+                            <img src="images/html5.svg" alt="css icon">
+                            <p>html</p></li>
+                        <li class="languages">
+                            <img src="images/css3.svg" alt="java script icon">
+                            <p>css</p></li>
+                    </ul>
+                    
+                    <div class="not-expanded">
+                        <p>Frameworks</p>
+                        <img src="images/icons/horizontal-arrow.svg" alt="horizontal arrow">
+                    </div>
+                    <div class="not-expanded">
+                        <p>skills</p>
+                        <img src="images/icons/horizontal-arrow.svg" alt="horizontal arrow">
                     </div>
                 </div>
             </div>
+    
         </div>
-        </section>
 
-       
+         <!-- Form section-->
+         <section class="contact-form">
+            <div class="form-containter">
+                <div class="form-wrapper">
+                        <h2>Contact me</h2>
+                        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                    
+                    <form  class="form-elements" action="https://formspree.io/f/xknylrod" method="POST">
+                        <input type="text" id="name" name="name" maxlength="30" placeholder="Your full name" required>
+                        <input type="email" name="Email" id="email" placeholder="email@smtn.com" required>    
+                        <textarea id="message" name="message" rows="30" cols="30" placeholder="Write your message here" maxlength="500" required></textarea>
+                        <button type="submit" id="get-in-touch" class="see-more-button">Get In Touch</button>
+                    </form>
+                    <!-- The black horizontal bar-->
+                    <div class="home-indicator">   
+
+                    </div>
+                </div>
+            </div>
+         </section>
     </div>
-
 </body>
 </html>
