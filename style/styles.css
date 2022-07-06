@@ -359,7 +359,15 @@ header {
   border-radius: 8px;
 }
 
-/* Theme 1 / Neutrals 5 */
 .see-more-button:disabled {
 color: #5E6C84;
+}
+
+.home-indicator{
+  width: 134px;
+  height: 5px;
+  top: 8px;
+  background: #0D151E;
+  border-radius: 10px;
+  margin: 37px auto 8px auto;
 }
