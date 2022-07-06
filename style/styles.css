@@ -260,7 +260,6 @@ header {
   border-radius: 15px;
 }
 
-
 .skill-set {
   font-weight: 500;
   font-size: 15px;
@@ -268,30 +267,28 @@ header {
   color: #253858;
 }
 
-.about-my-self{
+.about-my-self {
   background-color: white;
   padding: 80px 16px;
   margin-top: 68px;
   border-top-right-radius: 80px 80px;
 }
 
-
-/* contact form styles*/
-.contact-form{
+/* contact form styles */
+.contact-form {
   background-color: white;
   padding-top: 0.5px;
   width: 100%;
   height: 779px;
-  
 }
 
-.form-containter{
+.form-containter {
   background-color: #396df2;
   height: 779px;
   border-top-left-radius: 80px;
 }
 
-.form-wrapper{
+.form-wrapper {
   background: #396df2 url("../images/contact-bg.svg") no-repeat 100% 100%;
   width: 100%;
   height: 720px;
@@ -302,83 +299,83 @@ header {
   padding-bottom: 15px;
 }
 
-.form-wrapper h2{
-  padding-top:93px;
+.form-wrapper h2 {
+  padding-top: 93px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
-.form-wrapper p{
+.form-wrapper p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   margin-top: 12px;
   margin-bottom: 87px;
   height: 102px;
   width: 100%;
 }
 
-.form-elements{
+.form-elements {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
-  gap:20px;
+  align-items: flex-start;
+  gap: 20px;
 }
 
-.contact-form input{
+.contact-form input {
   width: 100%;
   background-color: white;
   height: 48px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
 
-#message{
+#message {
   height: 170px;
   width: 100%;
-  padding:16px;
-  border: 1px solid #CFD8DC;
+  padding: 16px;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
 
-.contact-form input::placeholder{
+.contact-form input::placeholder {
   padding-left: 16px;
 }
 
 .see-more-button:hover {
-  background: #6070FF;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;
 }
 
 .see-more-button:active {
-  background: #2230D2;
+  background: #2230d2;
   border-radius: 8px;
 }
 
 .see-more-button:disabled {
-color: #5E6C84;
+  color: #5e6c84;
 }
 
-.home-indicator{
+.home-indicator {
   width: 134px;
   height: 5px;
   top: 8px;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
   margin: 37px auto 8px auto;
 }
 
-#get-in-touch{
+#get-in-touch {
   margin-top: 6px;
 }
