@@ -5,7 +5,7 @@
 # Portfolio
 
 ## Description
-This project is a prortfolio website that is not done yet. Currently I has got header, work and about my self sections.
+This project is a mobile version of a prortfolio website. But its desktop version is under construction and will be live soon !!
 
 
 ## Built With
