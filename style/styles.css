@@ -318,3 +318,31 @@ header {
   height: 102px;
   width: 100%;
 }
+
+.form-elements{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  gap:20px;
+
+}
+
+.contact-form input{
+  width: 100%;
+  background-color: white;
+  height: 48px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
+
+#message{
+  height: 170px;
+  width: 100%;
+  padding:16px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
+
+.contact-form input::placeholder{
+  padding-left: 16px;
+}
