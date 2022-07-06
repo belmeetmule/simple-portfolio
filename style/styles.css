@@ -281,17 +281,25 @@ header {
   background-color: white;
   padding-top: 0.5px;
   width: 100%;
-  height: fit-content;
+  height: 779px;
+  
+}
+
+.form-containter{
+  background-color: #396df2;
+  height: 779px;
+  border-top-left-radius: 80px;
 }
 
 .form-wrapper{
   background: #396df2 url("../images/contact-bg.svg") no-repeat 100% 100%;
   width: 100%;
-  height: 740px;
+  height: 720px;
   border-top-left-radius: 80px;
   padding-left: 24px;
   padding-right: 24px;
   margin-top: 10px;
+  padding-bottom: 15px;
 }
 
 .form-wrapper h2{
@@ -324,7 +332,6 @@ header {
   flex-direction: column;
   align-items:flex-start;
   gap:20px;
-
 }
 
 .contact-form input{
@@ -370,4 +377,8 @@ color: #5E6C84;
   background: #0D151E;
   border-radius: 10px;
   margin: 37px auto 8px auto;
+}
+
+#get-in-touch{
+  margin-top: 6px;
 }
