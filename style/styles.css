@@ -293,3 +293,28 @@ header {
   padding-right: 24px;
   margin-top: 10px;
 }
+
+.form-wrapper h2{
+  padding-top:93px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.form-wrapper p{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+  margin-top: 12px;
+  margin-bottom: 87px;
+  height: 102px;
+  width: 100%;
+}
