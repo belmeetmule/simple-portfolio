@@ -132,6 +132,13 @@ header {
   color: #172b4d;
 }
 
+.profile-image-mobile {
+  display: block !important; 
+}
+.profile-image-desktop {
+  display: none !important; 
+}
+
 .icons {
   list-style-type: none;
   display: flex;
@@ -381,7 +388,9 @@ header {
 #get-in-touch {
   margin-top: 6px;
 }
-/* Extra small devices (phones, 600px and down) */
+
+
+/* Desktop version min-width of 768px) */
 @media only screen and (min-width: 768px) {
   .navbar ul{
     display: flex;
@@ -404,6 +413,7 @@ header {
   background: white url("../images/header-bg-desktop.svg") no-repeat;
   padding-left: 260px;
   padding-right: 260px;
+  padding-top: 100px;
 }
 
 .logo{
@@ -419,7 +429,14 @@ header {
   display: flex;
   flex-direction: row;
   gap: 46px;
+}
 
+
+.profile-image-mobile {
+  display: none !important; 
+}
+.profile-image-desktop {
+  display: block !important; 
 }
 
 .about-my-self{
@@ -444,5 +461,20 @@ header {
 #card-2, #card-4{
   flex-direction: row-reverse;
 }
+
+.form-wrapper{
+  padding-left: 310px;
+  padding-right: 309px;
+  text-align: center;
+}
+
+#get-in-touch{
+  margin: 10px auto 0px auto;
+}
+
+.home-indicator{
+  display: none;
+}
+
 
 }
