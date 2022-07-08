@@ -216,8 +216,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -469,7 +468,7 @@ header {
     width: 542px;
   }
 
-  .languages-vertical .languages{
+  .languages-vertical .languages {
     display: flex;
     flex-direction: column;
   }
