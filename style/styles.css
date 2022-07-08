@@ -453,11 +453,11 @@ header {
     display: block !important;
   }
 
-  .profile-image-desktop:hover{
+  .profile-image-desktop:hover {
     transform: scale(1.1);
   }
 
-  .see-more-button:hover{
+  .see-more-button:hover {
     transform: scale(1.1);
   }
 
