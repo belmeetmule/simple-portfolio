@@ -99,15 +99,15 @@ header {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
-  padding-top: 15px;
+  margin-top: 26px;
   list-style: none;
-  margin-right: 10px;
 }
 
 .social-item li {
-  margin: 10px 10px 10px 0;
+  margin: 10px 21px 10px 0;
   list-style: none;
-}
+  }
+
 
 .grid-container {
   display: grid;
@@ -197,7 +197,7 @@ header {
 }
 
 .see-more-button {
-  margin-top: 12px;
+  margin-top: 36px;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -429,6 +429,10 @@ header {
     padding-left: 155px;
   }
 
+  .social-item li{
+    padding-left: 11px;
+  }
+
   .grid-container {
     padding-left: 142px;
     padding-right: 142px;
@@ -449,17 +453,35 @@ header {
   }
 
   .about-my-self {
+    padding-top: 0;
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 37px;
+   
   }
 
+  .about-my-self .card-item{
+    width:447px;
+    height: 392px;
+    margin: 142px 37px 142px 142px;
+  }
+
+  #skill-language{
+    display:flex;
+    flex-direction: column;
+    width:684px;
+    height: 360px;
+    margin: 142px 142px 166px 0;
+  }
+
+  /*
   .card-item {
     width: 50%;
-  }
+  }*/
 
   .languages-title {
     margin-top: 0;
+    padding-left: 10px;
   }
 
   .languages-vertical {
