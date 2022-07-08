@@ -106,8 +106,7 @@ header {
 .social-item li {
   margin: 10px 21px 10px 0;
   list-style: none;
-  }
-
+}
 
 .grid-container {
   display: grid;
@@ -144,6 +143,7 @@ header {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 16px;
   margin-top: 16px;
   padding-left: 0;
@@ -429,8 +429,8 @@ header {
     padding-left: 155px;
   }
 
-  .social-item li{
-    padding-left: 11px;
+  .social-item {
+    margin-left: 10px;
   }
 
   .grid-container {
@@ -452,32 +452,31 @@ header {
     display: block !important;
   }
 
+  .icons {
+    align-items: center;
+  }
+
   .about-my-self {
     padding-top: 0;
     display: flex;
     flex-direction: row;
     gap: 37px;
-   
+    padding-bottom: 0;
   }
 
-  .about-my-self .card-item{
-    width:447px;
+  .about-my-self .card-item {
+    width: 447px;
     height: 392px;
     margin: 142px 37px 142px 142px;
   }
 
-  #skill-language{
-    display:flex;
+  #skill-language {
+    display: flex;
     flex-direction: column;
-    width:684px;
+    width: 684px;
     height: 360px;
     margin: 142px 142px 166px 0;
   }
-
-  /*
-  .card-item {
-    width: 50%;
-  }*/
 
   .languages-title {
     margin-top: 0;
@@ -502,9 +501,9 @@ header {
 
   .form-wrapper {
     background: #396df2 url("../images/contact-formbg-desktop.svg") no-repeat;
-    background-position: 75.34px 79.09px;
-    width: 100%;
+    max-width: 1290.66px;
     height: 718.7px;
+    background-position: 75.34px 79.09px;
     padding-left: 410px;
     padding-right: 409px;
     padding-top: 62.91px;
