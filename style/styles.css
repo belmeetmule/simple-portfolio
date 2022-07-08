@@ -209,6 +209,7 @@ header {
   border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
+  transition: 0.3s linear;
 }
 
 .languages-title {
@@ -450,6 +451,14 @@ header {
 
   .profile-image-desktop {
     display: block !important;
+  }
+
+  .profile-image-desktop:hover{
+    transform: scale(1.1);
+  }
+
+  .see-more-button:hover{
+    transform: scale(1.1);
   }
 
   .icons {
