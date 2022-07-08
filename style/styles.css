@@ -96,12 +96,12 @@ header {
 }
 
 .social-item {
-  width: 50%;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   padding-left: 0;
   padding-top: 15px;
   list-style: none;
+  margin-right: 10px;
 }
 
 .social-item li {
@@ -216,6 +216,13 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
 }
 
 .languages-vertical {
@@ -232,10 +239,12 @@ header {
   display: flex;
   flex-direction: row;
   justify-items: self-start;
+  align-items: center;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   color: #000;
+  margin-right: 5px;
 }
 
 .languages-vertical img {
@@ -457,6 +466,12 @@ header {
   .languages-vertical {
     display: flex;
     flex-direction: row;
+    width: 542px;
+  }
+
+  .languages-vertical .languages{
+    display: flex;
+    flex-direction: column;
   }
 
   #card-2,
