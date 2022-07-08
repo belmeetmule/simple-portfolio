@@ -209,6 +209,11 @@ header {
   border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
+  transition: 0.3s linear;
+}
+
+.see-more-button:hover {
+  transform: scale(1.1);
 }
 
 .languages-title {
