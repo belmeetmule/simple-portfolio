@@ -5,7 +5,7 @@
 # Portfolio
 
 ## Description
-This project is a mobile version of a prortfolio website. But its desktop version is under construction and will be live soon !!
+This project is a responsive mobile first prortfolio website. This website has a nice look and feel on both small devices like phone and tablets and devices with large screens !!
 
 
 ## Built With
