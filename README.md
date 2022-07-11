@@ -7,6 +7,12 @@
 ## Description
 This project is a responsive mobile first prortfolio website. This website has a nice look and feel on both small devices like phone and tablets and devices with large screens !!
 
+![screenshot](images/screenShotDesktop.JPG)
+![screenshot](images/screenShotMobile.JPG)
+
+## Live Demo
+
+[Live Demo Link](https://belmeetmule.github.io/Portfolio/)
 
 ## Built With
 
