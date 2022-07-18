@@ -451,6 +451,7 @@ header {
 
   .profile-image-desktop {
     display: block !important;
+    width: 100%;
   }
 
   .profile-image-desktop:hover {
@@ -466,6 +467,7 @@ header {
   }
 
   .about-my-self {
+    width: 100%;
     padding-top: 0;
     display: flex;
     flex-direction: row;
@@ -474,15 +476,19 @@ header {
   }
 
   .about-my-self .card-item {
-    width: 447px;
+    width: 100%;
     height: 392px;
     margin: 142px 37px 142px 142px;
+  }
+
+  img{
+    width: 100%;
   }
 
   #skill-language {
     display: flex;
     flex-direction: column;
-    width: 684px;
+    width: 100%;
     height: 360px;
     margin: 142px 142px 166px 0;
   }
