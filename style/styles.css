@@ -31,7 +31,7 @@ header {
   width: 100%;
   background-color: white;
   position: fixed;
-  top:0;
+  top: 0;
 }
 
 .logo {
@@ -43,6 +43,7 @@ header {
   line-height: 20px;
   color: #6070ff;
 }
+
 /*
 .menu{
   display: none;
@@ -58,7 +59,7 @@ header {
   right: 0;
   bottom: 0;
   z-index: 99;
-  background: #6070FF;
+  background: #6070ff;
   list-style: none;
   opacity: 0.9;
   padding-top: 2rem;
@@ -88,11 +89,11 @@ header {
   right: 1rem;
   padding: 4px;
   border: #fff solid 1px;
-  background: #6070FF;
+  background: #6070ff;
   cursor: pointer;
 }
 
-.menuIcon{
+.menuIcon {
   background-color: #fff;
   border: none;
 }
@@ -462,9 +463,9 @@ header {
 
 /* Desktop version min-width of 768px) */
 @media only screen and (min-width: 768px) {
-  .header{
+  .header {
     height: 78px;
-    box-shadow: 0px 55px 10px -15px #111; 
+    box-shadow: 0 55px 10px -15px #111;
   }
 
   .hamburger,
@@ -474,16 +475,16 @@ header {
   }
 
   .menu {
-    all:revert;
+    all: revert;
   }
 
-  .navbar .menu{
+  .navbar .menu {
     display: flex;
     gap: 5px;
     list-style: none;
   }
 
-  .navbar .menu .menuItem{
+  .navbar .menu .menuItem {
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -556,7 +557,7 @@ header {
     margin: 142px 37px 142px 142px;
   }
 
-  img{
+  img {
     width: 100%;
   }
 
