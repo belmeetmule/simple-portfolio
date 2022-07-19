@@ -15,5 +15,10 @@ function toggleMenu() {
     menuIcon.style.display = "none";
   }
 }
+  closeIcon.addEventListener("click",toggleMenu);
+  menuIcon.addEventListener("click",toggleMenu);
 
+  menuItems.forEach(function(menuItem){
+    menuItem.addEventListener("click", toggleMenu);
+  });
 //
