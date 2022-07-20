@@ -44,11 +44,6 @@ header {
   color: #6070ff;
 }
 
-/*
-.menu{
-  display: none;
-}
-*/
 
 .menu {
   position: fixed;
@@ -63,6 +58,9 @@ header {
   list-style: none;
   opacity: 0.9;
   padding-top: 2rem;
+  backdrop-filter: blur(10px);
+  mix-blend-mode: multiply;
+  opacity: 1;
 }
 
 .menuItem {
@@ -88,13 +86,10 @@ header {
   top: 1rem;
   right: 1rem;
   padding: 4px;
-  border: #fff solid 1px;
-  background: #6070ff;
   cursor: pointer;
 }
 
 .menuIcon {
-  background-color: #fff;
   border: none;
 }
 
