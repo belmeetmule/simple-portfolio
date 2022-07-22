@@ -87,6 +87,8 @@ const projects = [
     },
   ];
 
+  const detailText = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?';
+  
   function makeUL(array) {
     // Create the list element:
     var list = document.createElement('ul');
@@ -201,13 +203,6 @@ buttons.forEach((button) => {
   const [btn] = button.id.split('-');
   if (btn === 'project') projectButtons.push(button);
 });
-function openNav() {
-  nav.style.height = '100%';
-};
-
-function closeNav() {
-  nav.style.height = '0%';
-};
 
 const displayModal = (id) => {
   let li = '';
@@ -268,5 +263,3 @@ const displayModal = (id) => {
 };
 
 
-
-  
