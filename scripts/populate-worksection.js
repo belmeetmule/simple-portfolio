@@ -191,3 +191,20 @@ function addPortfolio(){
 document.addEventListener('DOMContentLoaded', function() {
     addPortfolio();
 }, false);
+
+// pup up 
+const projectButtons = [];
+const buttons = document.querySelectorAll('button');
+const modal = document.getElementById('myModal');
+
+buttons.forEach((button) => {
+  const [btn] = button.id.split('-');
+  if (btn === 'project') projectButtons.push(button);
+});
+function openNav() {
+  nav.style.height = '100%';
+};
+
+function closeNav() {
+  nav.style.height = '0%';
+};
