@@ -86,3 +86,108 @@ const projects = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     },
   ];
+
+  function makeUL(array) {
+    // Create the list element:
+    var list = document.createElement('ul');
+
+    for (let i = 0; i < array.length; i++) {
+        // Create the list item:
+        let item = document.createElement('li');
+
+        // Set its contents:
+        if(i%2 === 0){
+            item.appendChild(document.createTextNode(array[i]));
+            item.classList.add('role-year');
+        }else{
+            let bullets = document.createElement('span');
+            bullets.classList.add('dot');
+            item.appendChild(bullets);
+        }
+        // Add it to the list:
+        list.appendChild(item);
+    }
+
+    // Finally, return the constructed list:
+    return list;
+}
+
+function makeL(array) {
+    // Create the list element:
+    let list = document.createElement('ul');
+
+    for (let i = 0; i < array.length; i++) {
+        // Create the list item:
+        let item = document.createElement('li');
+       
+        // Set its contents:
+        item.appendChild(document.createTextNode(array[i]));
+        item.classList.add('languages');
+
+        // Add it to the list:
+        list.appendChild(item);
+    }
+
+    // Finally, return the constructed list:
+    return list;
+}
+
+    function addWorkSection(pro){
+       
+    const portfolio=document.querySelector('#portfolio');
+
+    /* project div */
+    let project_div = document.createElement("div");
+    project_div.id=pro.id;
+    project_div.classList.add('project');
+
+    /* image div */
+    let featured_image_div = document.createElement('div');
+    let featured_image= document.createElement('img');
+    featured_image.src=pro.featured_image;
+    featured_image.alt= pro.id+' picture';
+    featured_image.classList.add('featured_image-mobile');
+    featured_image_div.appendChild(featured_image);
+    project_div.appendChild(featured_image_div);
+
+    /* project description (details) */
+    let project_detail_div = document.createElement("div");
+    let name = document.createElement("h2");
+    name.innerHTML=pro.name;
+    name.classList.add('project-title');
+    project_detail_div.appendChild(name);
+    project_div.appendChild(project_detail_div);
+    /* list of languages */
+    let subTitle = makeUL(pro.sub);
+    subTitle.classList.add('icons');
+    project_detail_div.appendChild(subTitle);
+
+    let description = document.createElement('p');
+    description.innerHTML=pro.description;
+    project_detail_div.appendChild(description);
+    
+    let languagesList = makeL(pro.langs);
+    languagesList.classList.add('icons');
+    project_detail_div.appendChild(languagesList);
+
+    let more = document.createElement('button');
+    more.id= pro.id;
+    more.type="button";
+    more.innerHTML="See Project";
+    more.classList.add('see-more-button');
+    //more.addEventListener('click', displayModal(pro.id));
+
+    project_detail_div.appendChild(more);
+    portfolio.appendChild(project_div);
+}
+
+function addPortfolio(){
+    for(let i= 0; i < projects.length; i++){
+        addWorkSection(projects[i]);
+    }
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    addPortfolio();
+}, false);
