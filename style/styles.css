@@ -451,7 +451,6 @@ header {
   margin-top: 6px;
 }
 
-
 .modal {
   display: none;
   position: fixed;
@@ -500,6 +499,7 @@ header {
   border-radius: 8px;
   background-color: #fff;
 }
+
 /* The Close Button */
 .close {
   color: #aaa;
@@ -540,6 +540,7 @@ header {
   color: #344563;
   margin-top: 12px;
 }
+
 .modal-project-description {
   display: flex;
   margin-top: 28px;
@@ -568,8 +569,8 @@ header {
 }
 
 .modal-links {
-    flex: 1;
-    margin-left: 12px;
+  flex: 1;
+  margin-left: 12px;
 }
 
 
