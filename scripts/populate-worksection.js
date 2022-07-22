@@ -157,6 +157,7 @@ function makeL(array) {
     name.classList.add('project-title');
     project_detail_div.appendChild(name);
     project_div.appendChild(project_detail_div);
+    
     /* list of languages */
     let subTitle = makeUL(pro.sub);
     subTitle.classList.add('icons');
@@ -175,8 +176,7 @@ function makeL(array) {
     more.type="button";
     more.innerHTML="See Project";
     more.classList.add('see-more-button');
-    //more.addEventListener('click', displayModal(pro.id));
-
+   
     project_detail_div.appendChild(more);
     portfolio.appendChild(project_div);
 }
