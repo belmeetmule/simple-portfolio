@@ -266,3 +266,7 @@ const displayModal = (id) => {
     modal.style.display = 'none';
   });
 };
+
+
+
+  
