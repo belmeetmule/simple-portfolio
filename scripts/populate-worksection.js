@@ -262,4 +262,17 @@ const displayModal = (id) => {
   });
 };
 
+function addLi(proId){
+  document.addEventListener('click', function(e){
+    if(e.target && e.target.id == proId){
+        //display modal
+        displayModal(proId);
+    }
+  });
 
+}
+
+// iterate over and add listner to all buttons
+for(let i= 0; i < projects.length; i++){
+  addLi(projects[i].id);
+}
