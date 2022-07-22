@@ -214,4 +214,55 @@ const displayModal = (id) => {
   const project = projects.find((p) => p.id === id);
   project.langs.forEach((project) => {
     li += `<li class="languages">${project}</li>`;
-  })};
+  });
+  
+  const render = `
+  <div class="modal-content">
+  <span class="close">&times;</span>
+  <h2 class="modal-card-title">${project.name}</h2>
+  <ul class="icons">
+      <li class="canopy">CANOPY</li>
+      <li class="counter"><span class='dot'> <span>
+      </li>
+      <li class="bg">Back End Dev</li>
+      <li class="counter"><span class='dot'> <span>
+      </li>
+      <li class="bg">2015</li>
+  </ul>
+  <img src=${project.featured_image} alt="featured project image" class="modal-card-img">
+  <div class="modal-project-description">
+      <p class="modal-description">${detailText}</p>
+      <div class="modal-links">
+          <ul class="icons">
+            ${li}
+            <li class="languages">Github </li>
+            <li class="languages">Ruby </li>
+            <li class="languages"> Bootsrap</li>
+          </ul>
+          <hr>
+          <div class="live-links">
+              <button class="btn-enabled" id='live-link' type="button">
+              
+                  see live
+                  <img src="./images/live-icon.png">
+                  <i class="fa fa-external-link"></i>
+                  
+              </button>
+              <button class="btn-enabled" id='btn-source-link' type="button">
+                  See source
+                  <img src="./images/source.png">
+                  <i class="fa fa-external-link"></i>
+                  <i class="fa-brands fa-github-square"></i>
+                  </div>
+              </button>
+          </div>
+      </div>
+  </div>
+</div>`;
+  modal.innerHTML = render;
+  modal.style.display = 'block';
+  const closeModalBtn = document.querySelector('span.close');
+  closeModalBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
+};
