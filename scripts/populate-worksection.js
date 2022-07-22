@@ -208,3 +208,10 @@ function openNav() {
 function closeNav() {
   nav.style.height = '0%';
 };
+
+const displayModal = (id) => {
+  let li = '';
+  const project = projects.find((p) => p.id === id);
+  project.langs.forEach((project) => {
+    li += `<li class="languages">${project}</li>`;
+  })};
