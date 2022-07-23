@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
     <script src="./scripts/navbar.js" defer></script>
     <script src="./scripts/populate-worksection.js" defer></script>
+    <script src="./scripts/validateForm.js" defer></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
@@ -134,6 +135,9 @@
                         <textarea id="message" name="message" rows="30" cols="30" placeholder="Write your message here" maxlength="500" required></textarea>
                         <button type="submit" id="get-in-touch" class="see-more-button">Get In Touch</button>
                     </form>
+                    <div class="error-message">
+                        <small id="error"></small>
+                    </div>
                     <!-- The black horizontal bar-->
                     <div class="home-indicator">   
 
