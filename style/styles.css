@@ -460,7 +460,8 @@ header {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.6);
+  background: #C1C7D0;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
@@ -468,8 +469,8 @@ header {
   margin: auto;
   padding: 16px;
   border: 1px solid #888;
-  width: 90%;
-  padding-bottom: 50px;
+  width: 100%;
+  padding-bottom: 0;
   border-radius: 16px;
 }
 
@@ -526,23 +527,22 @@ header {
 .live-links {
   display: flex;
   gap: 16px;
-  margin-top: 16px;
+  margin-top: 6px;
   padding-left: 0;
 }
 
 .modal-description {
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 13px;
+  line-height: 13px;
   color: #344563;
-  margin-top: 12px;
 }
 
 .modal-project-description {
   display: flex;
   flex-direction: column;
-  margin-top: 28px;
+  margin-top: 12px;
 }
 
 .modal-content > .icons > .canopy {
@@ -710,9 +710,10 @@ header {
   }
 
   .modal-card-img {
-    width: 100%;
-    height: 256px;
+    width: 80%;
     object-fit: contain;
+    display: block;
+    margin: 0 auto;
   }
 
   .modal {
@@ -727,6 +728,9 @@ header {
   .modal-description {
     flex-basis: 450px;
     flex-grow: 5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
   }
 
   .modal-links {
