@@ -237,11 +237,9 @@ const displayModal = (id) => {
           <hr>
           <div class="live-links">
               <button class="btn-enabled" id='live-link' type="button">
-              
                   see live
                   <img src="./images/live-icon.png">
                   <i class="fa fa-external-link"></i>
-                  
               </button>
               <button class="btn-enabled" id='btn-source-link' type="button">
                   See source
