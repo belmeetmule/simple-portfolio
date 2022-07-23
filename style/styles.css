@@ -345,14 +345,12 @@ header {
 
 /* contact form styles */
 .contact-form {
-  background-color: white;
   padding-top: 0.5px;
   width: 100%;
   height: 779px;
   border-top-left-radius: 80px;
   background: #396df2 url("../images/contact-bg.svg") no-repeat 100% 100%;
 }
-
 
 .form-wrapper {
   width: 100%;
@@ -441,7 +439,7 @@ header {
   margin-top: 6px;
 }
 
-/* Form validation*/
+/* Form validation */
 #error {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -456,7 +454,7 @@ header {
   float: right;
 }
 
-/*Pop up for the mobile version*/
+/* Pop up for the mobile version */
 
 .modal {
   display: none;
