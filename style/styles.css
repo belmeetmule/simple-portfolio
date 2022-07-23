@@ -449,6 +449,23 @@ header {
   margin-top: 6px;
 }
 
+/* Form validation*/
+#error {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgb(246, 52, 52);
+}
+
+.error-message {
+  margin-top: 7px;
+  margin-left: 350px;
+}
+
+/*Pop up for the mobile version*/
+
 .modal {
   display: none;
   position: fixed;
