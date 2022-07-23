@@ -714,4 +714,34 @@ header {
   .modal-project-description{
     flex-direction: row;
   }
+
+  .modal-card-img{
+    width: 100%;
+    height: 256px;
+    object-fit: contain;
+  }
+
+  .modal{
+    padding: 47px 210px;
+
+  }
+
+  .modal-project-description {
+    margin-top: 10px;
+  }
+
+  .modal-description{
+    flex-basis: 450px;
+    flex-grow: 5;
+  }
+
+  .modal-links{
+    flex-basis: 236px;
+    flex-grow: 5;
+    flex-grow: 0;
+  }
+
+  .modal-content{
+    padding: 24px;
+  }
 }

@@ -225,7 +225,7 @@ const displayModal = (id) => {
       <li class="bg">2015</li>
   </ul>
   <div>
-  <img src=${project.featured_image} alt="featured project image" class="featured_image-mobile">
+    <img src=${project.featured_image} alt="featured project image" class="modal-card-img">
   </div>
   <div class="modal-project-description">
       <p class="modal-description">${detailText}</p>
