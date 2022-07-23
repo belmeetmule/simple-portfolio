@@ -345,34 +345,24 @@ header {
 
 /* contact form styles */
 .contact-form {
-  background-color: white;
   padding-top: 0.5px;
   width: 100%;
   height: 779px;
-  overflow: hidden;
-}
-
-.form-containter {
-  background-color: #396df2;
-  height: 779px;
   border-top-left-radius: 80px;
-  overflow: hidden;
+  background: #396df2 url("../images/contact-bg.svg") no-repeat 100% 100%;
 }
 
 .form-wrapper {
-  background: #396df2 url("../images/contact-bg.svg") no-repeat 100% 100%;
   width: 100%;
   height: 720px;
-  border-top-left-radius: 80px;
   padding-left: 24px;
   padding-right: 24px;
   margin-top: 10px;
   padding-bottom: 15px;
-  overflow: hidden;
 }
 
 .form-wrapper h2 {
-  padding-top: 93px;
+  padding-top: 63px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -448,6 +438,23 @@ header {
 #get-in-touch {
   margin-top: 6px;
 }
+
+/* Form validation */
+#error {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  color: rgb(131, 25, 25);
+}
+
+.error-message {
+  margin-top: 5px;
+  float: right;
+}
+
+/* Pop up for the mobile version */
 
 .modal {
   display: none;
