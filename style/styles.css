@@ -458,6 +458,7 @@ header {
   padding-top: 50px;
   left: 0;
   top: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
@@ -467,11 +468,10 @@ header {
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 16px;
   border: 1px solid #888;
-  width: 80%;
+  width: 90%;
   padding-bottom: 50px;
-  padding-right: 30px;
   border-radius: 16px;
 }
 
@@ -543,6 +543,7 @@ header {
 
 .modal-project-description {
   display: flex;
+  flex-direction: column;
   margin-top: 28px;
 }
 
@@ -656,10 +657,6 @@ header {
     margin: 142px 37px 142px 142px;
   }
 
-  img {
-    width: 100%;
-  }
-
   #skill-language {
     display: flex;
     flex-direction: column;
@@ -671,6 +668,8 @@ header {
   .languages-title {
     margin-top: 0;
     padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .languages-vertical {
@@ -710,5 +709,9 @@ header {
 
   .home-indicator {
     display: none;
+  }
+
+  .modal-project-description{
+    flex-direction: row;
   }
 }
