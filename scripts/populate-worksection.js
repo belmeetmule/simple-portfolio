@@ -87,7 +87,7 @@ const projects = [
     },
   ];
 
-  const detailText = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?';
+  const detailText = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent';
   
   function makeUL(array) {
     // Create the list element:
@@ -224,7 +224,9 @@ const displayModal = (id) => {
       </li>
       <li class="bg">2015</li>
   </ul>
-  <img src=${project.featured_image} alt="featured project image" class="modal-card-img">
+  <div>
+  <img src=${project.featured_image} alt="featured project image" class="featured_image-mobile">
+  </div>
   <div class="modal-project-description">
       <p class="modal-description">${detailText}</p>
       <div class="modal-links">
