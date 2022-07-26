@@ -1,4 +1,5 @@
 const menu = document.querySelector('.menu');
+const menuItems = document.querySelectorAll('.menuItem');
 const closeIcon = document.querySelector('.closeIcon');
 const menuIcon = document.querySelector('.menuIcon');
 const navHeader = document.querySelector('header');
@@ -19,4 +20,9 @@ function toggleMenu() {
 closeIcon.addEventListener('click', toggleMenu);
 menuIcon.addEventListener('click', toggleMenu);
 
-document.querySelectorAll('.menuItem').forEach((i) => i.addEventListener('click', toggleMenu));
+
+menuItems.forEach((menuItem) => {
+  menuItem.addEventListener('click', toggleMenu);
+});
+//
+
