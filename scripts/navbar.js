@@ -20,7 +20,6 @@ function toggleMenu() {
   closeIcon.addEventListener("click",toggleMenu);
   menuIcon.addEventListener("click",toggleMenu);
 
-  menuItems.forEach(function(menuItem){
-    menuItem.addEventListener("click", toggleMenu);
-  });
-//
+  document.querySelectorAll(".menuItem").forEach(
+    menuItems => menuItems.addEventListener("click", toggleMenu)
+  );
