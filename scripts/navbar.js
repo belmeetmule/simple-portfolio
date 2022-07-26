@@ -20,7 +20,9 @@ function toggleMenu() {
 closeIcon.addEventListener('click', toggleMenu);
 menuIcon.addEventListener('click', toggleMenu);
 
+
 menuItems.forEach((menuItem) => {
   menuItem.addEventListener('click', toggleMenu);
 });
 //
+
